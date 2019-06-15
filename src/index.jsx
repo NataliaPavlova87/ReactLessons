@@ -15,7 +15,7 @@ class App extends Component {
             {pictures.map((picture, idx) => <ImageBox key={idx} {...picture} />)}
           </div>
         </div>
-      </main>
+      </main> 
     );
   } 
 }
