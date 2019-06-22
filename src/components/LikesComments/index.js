@@ -1,1 +1,0 @@
-export { LikesComments } from './LikesComments';
