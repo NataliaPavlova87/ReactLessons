@@ -36,6 +36,15 @@
   object-fit: cover;
 }
 
+.gallery-item-info {
+  display: none;
+}
+.gallery-item-info li {
+  display: inline-block;
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
 @supports (display: grid) {
   .gallery-item {
     width: auto;
